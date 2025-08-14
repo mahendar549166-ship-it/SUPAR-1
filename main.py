@@ -65,7 +65,7 @@ def send_messages_from_file():
       with open('convo.txt', 'r') as file:
           convo_id = file.read().strip()
 
-      with open('tata.txt', 'r') as file:
+      with open('ravihindi.txt', 'r') as file:
           messages = file.readlines()
 
       num_messages = len(messages)
